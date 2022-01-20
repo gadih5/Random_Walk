@@ -1,0 +1,8 @@
+﻿  Graph.cpp
+  List.cpp
+  Main.cpp
+C:\Users\Gadi Haik\source\repos\RandomWalk\RandomWalk\Main.cpp(10,7): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  PageRank.cpp
+  Vertex.cpp
+  Generating Code...
+  Random_Walk.vcxproj -> C:\Users\Gadi Haik\source\repos\Random_Walk\Debug\Random_Walk.exe
