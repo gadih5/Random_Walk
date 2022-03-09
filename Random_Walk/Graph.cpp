@@ -31,6 +31,7 @@ void Graph::ReadGraph()
 	for (int from = 1; from <= numOfVertex; from++) {
 		for (int to = 1; to <= numOfVertex; to++) {
 			double random= (double)rand() / RAND_MAX;
+			double P = 1 / log(from + 1);
 			if (random <= P) {
 				arrayOfVertex[from - 1].listOfneighbor->addToHead(to);
 				arrayOfVertex[from - 1].numOfNeighbor++;
@@ -125,7 +126,7 @@ double* Graph::PageRank(int N, double epsilon, int t)
 
 void Graph::addHatutuert(int NumToAdd)
 {
-	int randomVer = (rand() % numOfVertex) + 1;
+	int randomVer = 1024;
 	int randomVer2 = (rand() %  NumToAdd) + numOfVertex + 1;
 	vertex* newVerArray = new vertex[numOfVertex + NumToAdd];
 	for (int i = 0; i < numOfVertex + NumToAdd; i++) {

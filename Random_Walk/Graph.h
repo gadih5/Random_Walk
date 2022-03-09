@@ -23,7 +23,7 @@ public:
 		//std::cin >> numOfVertex;
 		//std::cin >> P;
 		numOfVertex = 1024;
-		P = 0.015625;
+		//P = 0.015625;
 		ReadGraph();
 	}
 ;

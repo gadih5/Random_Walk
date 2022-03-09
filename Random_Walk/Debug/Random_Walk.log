@@ -1,4 +1,5 @@
-﻿  Main.cpp
-C:\Users\Gadi Haik\source\repos\Random_Walk\Random_Walk\Main.cpp(11,7): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
-C:\Users\Gadi Haik\source\repos\Random_Walk\Random_Walk\Main.cpp(19,9): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+﻿  Graph.cpp
+  Main.cpp
+C:\Users\Gadi Haik\source\repos\Random_Walk\Random_Walk\Main.cpp(15,7): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+  Generating Code...
   Random_Walk.vcxproj -> C:\Users\Gadi Haik\source\repos\Random_Walk\Debug\Random_Walk.exe
